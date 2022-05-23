@@ -1,10 +1,21 @@
-package j06_반복;
+package j07_메소드;
 
 import java.util.Scanner;
 
 public class Menu {
 	
-
+	public static char inputSelect() {
+		Scanner scanner = new Scanner(System.in);
+		char select = 0;
+		System.out.println("명령을 입력하세요: ");
+		select = scanner.next().charAt(0);
+		scanner.nextLine();
+		return select;
+	}
+	
+	public static char showMenu1() {
+		return ' ';
+	}
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in); //스캐너 선언-인풋
