@@ -1,12 +1,12 @@
 package j08_클래스;
 
-public class Car {
+public class Car {   
 	String company;
 	String model;
 	String color;
 	
 	void showCompanyInfo() {
-		System.out.println(company + "제조사에서 제조된 차량입니다.");
+		System.out.println(company + "제조사에서 제조된 차량입니다.");  
 	}
 	void showInfoAll() {
 		System.out.println("제조사: " + company);
