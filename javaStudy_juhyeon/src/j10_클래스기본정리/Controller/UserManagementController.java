@@ -8,14 +8,14 @@ public class UserManagementController {
 	private User[] users;
 	
 	public UserManagementController(UserService userService) {
-		userService = new UserService();
-		users = new User[2];
+		this.userService = userService;
+		users = new User[3];
 	}
 
 	public void createUser() {
 		int indexResult = findEmptyInUsers();//유저객체만 입력가능
 		if(indexResult != -1) {
-			users[0] = userService.insertUser();
+			users[indexResult] = userService.insertUser();
 			
 			
 			System.out.println("[새로 추가된 사용자]");
