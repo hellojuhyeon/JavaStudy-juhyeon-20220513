@@ -9,15 +9,19 @@ public class Main {//각각의 생산 시리얼넘버를 다르게 적어야할�
 		
 		Car k5_01 = kiaFactory1.createCar("k5");
 		Car k5_02 = kiaFactory1.createCar("k5");
+		Car k5_03 = kiaFactory1.createCar("k5");
 		
 		kiaFactory1.carInfo(k5_01);
 		kiaFactory1.carInfo(k5_02);
+		kiaFactory1.carInfo(k5_03);
 		
 		Car k7_01 = kiaFactory2.createCar("k7");
 		Car k7_02 = kiaFactory2.createCar("k7");
+		Car k7_03 = kiaFactory2.createCar("k7");
 		
 		kiaFactory2.carInfo(k7_01);
 		kiaFactory2.carInfo(k7_02);
+		kiaFactory2.carInfo(k7_03);
 
 	}
 
